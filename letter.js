@@ -25,9 +25,12 @@ heart.addEventListener('click', function () {
     setTimeout(() => {
         let printid = setInterval(() => {
             print();
-            if (i == str.length)
+            if (i == str.length) {
+                strp[i - 1] = '';
+                document.getElementById("box").innerHTML = strp
                 clearInterval(printid);
-        }, 190);
+            }
+        }, 19);
     }, 5500);
     function appearBackground() {
         setTimeout(() => {
