@@ -30,7 +30,7 @@ heart.addEventListener('click', function () {
                 document.getElementById("box").innerHTML = strp
                 clearInterval(printid);
             }
-        }, 19);
+        }, 190);
     }, 5500);
     function appearBackground() {
         setTimeout(() => {
