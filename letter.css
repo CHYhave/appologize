@@ -82,8 +82,6 @@ body {
   opacity: 1;
 }
 
-/* 心动效果 */
-/* 因为写动画太琐碎了 所以偷个懒 这里就不再写了 */
 @keyframes change {
   30% {
     transform: rotate(45deg) scale(1.1) translateX(-70%);
@@ -122,21 +120,15 @@ body {
   }
 }
 
-/* cv工程师 嘿嘿嘿 */
 .heart {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 50px;
   height: 50px;
-  /* pink yyds */
   background-color: pink;
-  /* 往右下脚偏一些 */
   transform: rotate(45deg) translateX(-70%);
-  /* 给这个爱心绑定动画 */
-  /* 动画的名字 */
   animation-name: change;
-  /* 动画持续时间 */
   animation-duration: 2.7s;
   /* 无限次播放动画 永远对你心动 */
   animation-iteration-count: infinite;
@@ -145,7 +137,6 @@ body {
 
 }
 
-/* 画爱心桃 */
 .heart::before {
   content: '';
   width: 50px;
@@ -167,7 +158,6 @@ body {
   transform: translateY(-25px);
 }
 
-/* 中间的字体样式有点丑  调一下 */
 .text {
   color: #7D6E83;
   margin-top: 0px;
@@ -181,7 +171,6 @@ body {
   margin-top: 30px;
 }
 
-/* 神秘的box */
 #box {
   position: absolute;
   left: 0;
