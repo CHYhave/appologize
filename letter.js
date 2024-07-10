@@ -8,7 +8,7 @@ heart.addEventListener('click', function () {
     x.setAttribute("autoplay", "autoplay");
 
     let i = 0
-    let str = '贝贝对不起，前两天是我不对a我不该因为忙不理你还凶你，不应该冷战，不该在你委屈的时候还忙自己的事a更不应该说气话拉黑删除你a对不起,原谅我好不好a我们和好好不好,我真的知道错了aa-----你的宝'
+    let str = '鱼鱼对不起，昨天不应该在你不确定被爱的时候胡思乱想，自我封闭。你那时候应该是是缺爱的，对不起没有好好地回应你，我错了鱼鱼，我真诚的向鱼鱼道歉！宝宝，原谅我吧！-----你的猪猪🐷'
     let strp = ''
 
     function print() {

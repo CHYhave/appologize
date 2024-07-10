@@ -43,7 +43,7 @@ body {
 }
 
 .card::before {
-  content: '写了三个小';
+  content: '来自Chy';
   left: 0;
   top: 0;
   display: flex;
@@ -54,7 +54,7 @@ body {
 }
 
 .card::after {
-  content: '时的道歉信';
+  content: '的道歉信';
   right: 0;
   top: 0;
   display: flex;
